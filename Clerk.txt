@@ -1,0 +1,686 @@
+Welcome to The FrozenFood Company!
+
+Please choose an option from the menu list below:
+f: Finish running the program
+m: Display all the meals information
+s: Display all the subscribers information
+a: to update the stored data when a registered subscriber adds meals to their subscription.
+r: to update the stored data when a registered subscriber removes meals from their subscription.
+=================================================================================================
+m
+Chilli                   6
+Curry                    2
+Fish                     8
+Lasagne                  8
+Mushroom Stew            4
+Spaghetti                5
+Steak                   11
+=================================================================================================
+
+Please choose an option from the menu list below:
+f: Finish running the program
+m: Display all the meals information
+s: Display all the subscribers information
+a: to update the stored data when a registered subscriber adds meals to their subscription.
+r: to update the stored data when a registered subscriber removes meals from their subscription.
+=================================================================================================
+s
+Anna Jones []
+Anna Smith []
+Carl Smith []
+Ted Smith []
+=================================================================================================
+
+Please choose an option from the menu list below:
+f: Finish running the program
+m: Display all the meals information
+s: Display all the subscribers information
+a: to update the stored data when a registered subscriber adds meals to their subscription.
+r: to update the stored data when a registered subscriber removes meals from their subscription.
+=================================================================================================
+a
+Please enter the First Name of the customer: 
+Ted
+Please enter the Last Name of the customer: 
+smith
+Subscriber "Ted Smith" is in the system.
+Ted's order list is: []
+Please choose the meal type: 
+a
+Invalid meal name!
+=================================================================================================
+
+Please choose an option from the menu list below:
+f: Finish running the program
+m: Display all the meals information
+s: Display all the subscribers information
+a: to update the stored data when a registered subscriber adds meals to their subscription.
+r: to update the stored data when a registered subscriber removes meals from their subscription.
+=================================================================================================
+a
+Please enter the First Name of the customer: 
+ted
+Please enter the Last Name of the customer: 
+smith
+Subscriber "Ted Smith" is in the system.
+Ted's order list is: []
+Please choose the meal type: 
+steak
+There are 11 Steak(s) remained in the company stock.
+Choose the meal quantity: 
+3
+3 Steak(s) have been successfully added to Ted's orders.
+=================================================================================================
+
+Please choose an option from the menu list below:
+f: Finish running the program
+m: Display all the meals information
+s: Display all the subscribers information
+a: to update the stored data when a registered subscriber adds meals to their subscription.
+r: to update the stored data when a registered subscriber removes meals from their subscription.
+=================================================================================================
+a
+Please enter the First Name of the customer: 
+anna
+Please enter the Last Name of the customer: 
+JONES
+Subscriber "Anna Jones" is in the system.
+Anna's order list is: []
+Please choose the meal type: 
+mushroom stew
+There are 4 Mushroom Stew(s) remained in the company stock.
+Choose the meal quantity: 
+2
+2 Mushroom Stew(s) have been successfully added to Anna's orders.
+=================================================================================================
+
+Please choose an option from the menu list below:
+f: Finish running the program
+m: Display all the meals information
+s: Display all the subscribers information
+a: to update the stored data when a registered subscriber adds meals to their subscription.
+r: to update the stored data when a registered subscriber removes meals from their subscription.
+=================================================================================================
+a
+Please enter the First Name of the customer: 
+ted
+Please enter the Last Name of the customer: 
+SMITH
+Subscriber "Ted Smith" is in the system.
+Ted's order list is: [steak 3]
+Please choose the meal type: 
+fish
+There are 8 Fish(s) remained in the company stock.
+Choose the meal quantity: 
+3
+3 Fish(s) have been successfully added to Ted's orders.
+=================================================================================================
+
+Please choose an option from the menu list below:
+f: Finish running the program
+m: Display all the meals information
+s: Display all the subscribers information
+a: to update the stored data when a registered subscriber adds meals to their subscription.
+r: to update the stored data when a registered subscriber removes meals from their subscription.
+=================================================================================================
+a
+Please enter the First Name of the customer: 
+ted
+Please enter the Last Name of the customer: 
+smith
+Subscriber "Ted Smith" is in the system.
+Ted's order list is: [steak 3, fish 3]
+Please choose the meal type: 
+steak
+There are 8 Steak(s) remained in the company stock.
+Choose the meal quantity: 
+4
+4 Steak(s) have been successfully added to Ted's orders.
+=================================================================================================
+
+Please choose an option from the menu list below:
+f: Finish running the program
+m: Display all the meals information
+s: Display all the subscribers information
+a: to update the stored data when a registered subscriber adds meals to their subscription.
+r: to update the stored data when a registered subscriber removes meals from their subscription.
+=================================================================================================
+a
+Please enter the First Name of the customer: 
+ted
+Please enter the Last Name of the customer: 
+smith
+Subscriber "Ted Smith" is in the system.
+Ted's order list is: [steak 7, fish 3]
+Please choose the meal type: 
+curry
+There are 2 Curry(s) remained in the company stock.
+Choose the meal quantity: 
+2
+2 Curry(s) have been successfully added to Ted's orders.
+=================================================================================================
+
+Please choose an option from the menu list below:
+f: Finish running the program
+m: Display all the meals information
+s: Display all the subscribers information
+a: to update the stored data when a registered subscriber adds meals to their subscription.
+r: to update the stored data when a registered subscriber removes meals from their subscription.
+=================================================================================================
+a
+Please enter the First Name of the customer: 
+ted
+Please enter the Last Name of the customer: 
+smith
+Subscriber "Ted Smith" is in the system.
+Ted's order list is: [steak 7, fish 3, curry 2]
+The user can't be subscribed to more than 3 types of meal at a time!
+To add meals to an existent order please first remove the meal from the subscriber using option
+"r" in the menu, then place a new order using option "a" in the menu.
+=================================================================================================
+
+Please choose an option from the menu list below:
+f: Finish running the program
+m: Display all the meals information
+s: Display all the subscribers information
+a: to update the stored data when a registered subscriber adds meals to their subscription.
+r: to update the stored data when a registered subscriber removes meals from their subscription.
+=================================================================================================
+r
+Please enter the First Name of the customer: 
+ted
+Please enter the Last Name of the customer: 
+smith
+Subscriber "Ted Smith" is in the system.
+Ted's order list is: [steak 7, fish 3, curry 2]
+Please choose the meal type: 
+fish
+There are 5 Fish(s) remained in the company stock.
+Choose the meal quantity: 
+3
+3 fish(s) have been successfully removed from Ted's orders.
+=================================================================================================
+
+Please choose an option from the menu list below:
+f: Finish running the program
+m: Display all the meals information
+s: Display all the subscribers information
+a: to update the stored data when a registered subscriber adds meals to their subscription.
+r: to update the stored data when a registered subscriber removes meals from their subscription.
+=================================================================================================
+a
+Please enter the First Name of the customer: 
+ted
+Please enter the Last Name of the customer: 
+smith
+Subscriber "Ted Smith" is in the system.
+Ted's order list is: [steak 7, curry 2]
+Please choose the meal type: 
+fish
+There are 8 Fish(s) remained in the company stock.
+Choose the meal quantity: 
+6
+6 Fish(s) have been successfully added to Ted's orders.
+=================================================================================================
+
+Please choose an option from the menu list below:
+f: Finish running the program
+m: Display all the meals information
+s: Display all the subscribers information
+a: to update the stored data when a registered subscriber adds meals to their subscription.
+r: to update the stored data when a registered subscriber removes meals from their subscription.
+=================================================================================================
+m
+Chilli                   6
+Curry                    0
+Fish                     2
+Lasagne                  8
+Mushroom Stew            2
+Spaghetti                5
+Steak                    4
+=================================================================================================
+
+Please choose an option from the menu list below:
+f: Finish running the program
+m: Display all the meals information
+s: Display all the subscribers information
+a: to update the stored data when a registered subscriber adds meals to their subscription.
+r: to update the stored data when a registered subscriber removes meals from their subscription.
+=================================================================================================
+s
+Anna Jones [mushroom stew 2]
+Anna Smith []
+Carl Smith []
+Ted Smith [steak 7, curry 2, fish 6]
+=================================================================================================
+
+Please choose an option from the menu list below:
+f: Finish running the program
+m: Display all the meals information
+s: Display all the subscribers information
+a: to update the stored data when a registered subscriber adds meals to their subscription.
+r: to update the stored data when a registered subscriber removes meals from their subscription.
+=================================================================================================
+a
+Please enter the First Name of the customer: 
+carl
+Please enter the Last Name of the customer: 
+jones
+Subscriber not found!
+Please enter a valid customer name!
+=================================================================================================
+
+Please choose an option from the menu list below:
+f: Finish running the program
+m: Display all the meals information
+s: Display all the subscribers information
+a: to update the stored data when a registered subscriber adds meals to their subscription.
+r: to update the stored data when a registered subscriber removes meals from their subscription.
+=================================================================================================
+a
+Please enter the First Name of the customer: 
+10
+Please enter the Last Name of the customer: 
+jhs
+Subscriber not found!
+Please enter a valid customer name!
+=================================================================================================
+
+Please choose an option from the menu list below:
+f: Finish running the program
+m: Display all the meals information
+s: Display all the subscribers information
+a: to update the stored data when a registered subscriber adds meals to their subscription.
+r: to update the stored data when a registered subscriber removes meals from their subscription.
+=================================================================================================
+a
+Please enter the First Name of the customer: 
+carl
+Please enter the Last Name of the customer: 
+smith
+Subscriber "Carl Smith" is in the system.
+Carl's order list is: []
+Please choose the meal type: 
+lasagne
+There are 8 Lasagne(s) remained in the company stock.
+Choose the meal quantity: 
+3
+3 Lasagne(s) have been successfully added to Carl's orders.
+=================================================================================================
+
+Please choose an option from the menu list below:
+f: Finish running the program
+m: Display all the meals information
+s: Display all the subscribers information
+a: to update the stored data when a registered subscriber adds meals to their subscription.
+r: to update the stored data when a registered subscriber removes meals from their subscription.
+=================================================================================================
+a
+Please enter the First Name of the customer: 
+anna
+Please enter the Last Name of the customer: 
+smith
+Subscriber "Anna Smith" is in the system.
+Anna's order list is: []
+Please choose the meal type: 
+steak
+There are 4 Steak(s) remained in the company stock.
+Choose the meal quantity: 
+4
+4 Steak(s) have been successfully added to Anna's orders.
+=================================================================================================
+
+Please choose an option from the menu list below:
+f: Finish running the program
+m: Display all the meals information
+s: Display all the subscribers information
+a: to update the stored data when a registered subscriber adds meals to their subscription.
+r: to update the stored data when a registered subscriber removes meals from their subscription.
+=================================================================================================
+m
+Chilli                   6
+Curry                    0
+Fish                     2
+Lasagne                  5
+Mushroom Stew            2
+Spaghetti                5
+Steak                    0
+=================================================================================================
+
+Please choose an option from the menu list below:
+f: Finish running the program
+m: Display all the meals information
+s: Display all the subscribers information
+a: to update the stored data when a registered subscriber adds meals to their subscription.
+r: to update the stored data when a registered subscriber removes meals from their subscription.
+=================================================================================================
+s
+Anna Jones [mushroom stew 2]
+Anna Smith [steak 4]
+Carl Smith [lasagne 3]
+Ted Smith [steak 7, curry 2, fish 6]
+=================================================================================================
+
+Please choose an option from the menu list below:
+f: Finish running the program
+m: Display all the meals information
+s: Display all the subscribers information
+a: to update the stored data when a registered subscriber adds meals to their subscription.
+r: to update the stored data when a registered subscriber removes meals from their subscription.
+=================================================================================================
+a
+Please enter the First Name of the customer: 
+anna
+Please enter the Last Name of the customer: 
+smith
+Subscriber "Anna Smith" is in the system.
+Anna's order list is: [steak 4]
+Please choose the meal type: 
+curry
+There are 0 Curry(s) remained in the company stock.
+Choose the meal quantity: 
+10
+
+There are no Curry(s) left in the store.
+=================================================================================================
+
+Please choose an option from the menu list below:
+f: Finish running the program
+m: Display all the meals information
+s: Display all the subscribers information
+a: to update the stored data when a registered subscriber adds meals to their subscription.
+r: to update the stored data when a registered subscriber removes meals from their subscription.
+=================================================================================================
+a
+Please enter the First Name of the customer: 
+anna
+Please enter the Last Name of the customer: 
+smith
+Subscriber "Anna Smith" is in the system.
+Anna's order list is: [steak 4]
+Please choose the meal type: 
+steak
+There are 0 Steak(s) remained in the company stock.
+Choose the meal quantity: 
+5
+
+There are no Steak(s) left in the store.
+=================================================================================================
+
+Please choose an option from the menu list below:
+f: Finish running the program
+m: Display all the meals information
+s: Display all the subscribers information
+a: to update the stored data when a registered subscriber adds meals to their subscription.
+r: to update the stored data when a registered subscriber removes meals from their subscription.
+=================================================================================================
+a
+Please enter the First Name of the customer: 
+carl
+Please enter the Last Name of the customer: 
+smith
+Subscriber "Carl Smith" is in the system.
+Carl's order list is: [lasagne 3]
+Please choose the meal type: 
+chilli
+There are 6 Chilli(s) remained in the company stock.
+Choose the meal quantity: 
+10
+
+The valid quantity range for Chilli is 1-6.
+=================================================================================================
+
+Please choose an option from the menu list below:
+f: Finish running the program
+m: Display all the meals information
+s: Display all the subscribers information
+a: to update the stored data when a registered subscriber adds meals to their subscription.
+r: to update the stored data when a registered subscriber removes meals from their subscription.
+=================================================================================================
+a
+Please enter the First Name of the customer: 
+carl
+Please enter the Last Name of the customer: 
+smith
+Subscriber "Carl Smith" is in the system.
+Carl's order list is: [lasagne 3]
+Please choose the meal type: 
+lasagne
+There are 5 Lasagne(s) remained in the company stock.
+Choose the meal quantity: 
+5
+5 Lasagne(s) have been successfully added to Carl's orders.
+=================================================================================================
+
+Please choose an option from the menu list below:
+f: Finish running the program
+m: Display all the meals information
+s: Display all the subscribers information
+a: to update the stored data when a registered subscriber adds meals to their subscription.
+r: to update the stored data when a registered subscriber removes meals from their subscription.
+=================================================================================================
+m
+Chilli                   6
+Curry                    0
+Fish                     2
+Lasagne                  0
+Mushroom Stew            2
+Spaghetti                5
+Steak                    0
+=================================================================================================
+
+Please choose an option from the menu list below:
+f: Finish running the program
+m: Display all the meals information
+s: Display all the subscribers information
+a: to update the stored data when a registered subscriber adds meals to their subscription.
+r: to update the stored data when a registered subscriber removes meals from their subscription.
+=================================================================================================
+s
+Anna Jones [mushroom stew 2]
+Anna Smith [steak 4]
+Carl Smith [lasagne 8]
+Ted Smith [steak 7, curry 2, fish 6]
+=================================================================================================
+
+Please choose an option from the menu list below:
+f: Finish running the program
+m: Display all the meals information
+s: Display all the subscribers information
+a: to update the stored data when a registered subscriber adds meals to their subscription.
+r: to update the stored data when a registered subscriber removes meals from their subscription.
+=================================================================================================
+r
+Please enter the First Name of the customer: 
+ted
+Please enter the Last Name of the customer: 
+smith
+Subscriber "Ted Smith" is in the system.
+Ted's order list is: [steak 7, curry 2, fish 6]
+Please choose the meal type: 
+steak
+There are 0 Steak(s) remained in the company stock.
+Choose the meal quantity: 
+5
+5 steak(s) have been successfully removed from Ted's orders.
+=================================================================================================
+
+Please choose an option from the menu list below:
+f: Finish running the program
+m: Display all the meals information
+s: Display all the subscribers information
+a: to update the stored data when a registered subscriber adds meals to their subscription.
+r: to update the stored data when a registered subscriber removes meals from their subscription.
+=================================================================================================
+m
+Chilli                   6
+Curry                    0
+Fish                     2
+Lasagne                  0
+Mushroom Stew            2
+Spaghetti                5
+Steak                    5
+=================================================================================================
+
+Please choose an option from the menu list below:
+f: Finish running the program
+m: Display all the meals information
+s: Display all the subscribers information
+a: to update the stored data when a registered subscriber adds meals to their subscription.
+r: to update the stored data when a registered subscriber removes meals from their subscription.
+=================================================================================================
+r
+Please enter the First Name of the customer: 
+ted
+Please enter the Last Name of the customer: 
+smith
+Subscriber "Ted Smith" is in the system.
+Ted's order list is: [steak 2, curry 2, fish 6]
+Please choose the meal type: 
+steak
+There are 5 Steak(s) remained in the company stock.
+Choose the meal quantity: 
+-10
+An error occurred!
+=================================================================================================
+
+Please choose an option from the menu list below:
+f: Finish running the program
+m: Display all the meals information
+s: Display all the subscribers information
+a: to update the stored data when a registered subscriber adds meals to their subscription.
+r: to update the stored data when a registered subscriber removes meals from their subscription.
+=================================================================================================
+a
+Please enter the First Name of the customer: 
+ted
+Please enter the Last Name of the customer: 
+smith
+Subscriber "Ted Smith" is in the system.
+Ted's order list is: [steak 2, curry 2, fish 6]
+The user can't be subscribed to more than 3 types of meal at a time!
+To add meals to an existent order please first remove the meal from the subscriber using option
+"r" in the menu, then place a new order using option "a" in the menu.
+=================================================================================================
+
+Please choose an option from the menu list below:
+f: Finish running the program
+m: Display all the meals information
+s: Display all the subscribers information
+a: to update the stored data when a registered subscriber adds meals to their subscription.
+r: to update the stored data when a registered subscriber removes meals from their subscription.
+=================================================================================================
+a
+Please enter the First Name of the customer: 
+anna
+Please enter the Last Name of the customer: 
+jones
+Subscriber "Anna Jones" is in the system.
+Anna's order list is: [mushroom stew 2]
+Please choose the meal type: 
+steak
+There are 5 Steak(s) remained in the company stock.
+Choose the meal quantity: 
+0
+The Steak quantity, can't be ZERO!
+=================================================================================================
+
+Please choose an option from the menu list below:
+f: Finish running the program
+m: Display all the meals information
+s: Display all the subscribers information
+a: to update the stored data when a registered subscriber adds meals to their subscription.
+r: to update the stored data when a registered subscriber removes meals from their subscription.
+=================================================================================================
+a
+Please enter the First Name of the customer: 
+anna
+Please enter the Last Name of the customer: 
+jones
+Subscriber "Anna Jones" is in the system.
+Anna's order list is: [mushroom stew 2]
+Please choose the meal type: 
+-10
+Invalid meal name!
+=================================================================================================
+
+Please choose an option from the menu list below:
+f: Finish running the program
+m: Display all the meals information
+s: Display all the subscribers information
+a: to update the stored data when a registered subscriber adds meals to their subscription.
+r: to update the stored data when a registered subscriber removes meals from their subscription.
+=================================================================================================
+a
+Please enter the First Name of the customer: 
+anna
+Please enter the Last Name of the customer: 
+jones
+Subscriber "Anna Jones" is in the system.
+Anna's order list is: [mushroom stew 2]
+Please choose the meal type: 
+steak
+There are 5 Steak(s) remained in the company stock.
+Choose the meal quantity: 
+-10
+The Steak quantity, can't be a negative number!
+=================================================================================================
+
+Please choose an option from the menu list below:
+f: Finish running the program
+m: Display all the meals information
+s: Display all the subscribers information
+a: to update the stored data when a registered subscriber adds meals to their subscription.
+r: to update the stored data when a registered subscriber removes meals from their subscription.
+=================================================================================================
+a
+Please enter the First Name of the customer: 
+
+Please enter the Last Name of the customer: 
+
+Subscriber not found!
+Please enter a valid customer name!
+=================================================================================================
+
+Please choose an option from the menu list below:
+f: Finish running the program
+m: Display all the meals information
+s: Display all the subscribers information
+a: to update the stored data when a registered subscriber adds meals to their subscription.
+r: to update the stored data when a registered subscriber removes meals from their subscription.
+=================================================================================================
+m
+Chilli                   6
+Curry                    0
+Fish                     2
+Lasagne                  0
+Mushroom Stew            2
+Spaghetti                5
+Steak                    5
+=================================================================================================
+
+Please choose an option from the menu list below:
+f: Finish running the program
+m: Display all the meals information
+s: Display all the subscribers information
+a: to update the stored data when a registered subscriber adds meals to their subscription.
+r: to update the stored data when a registered subscriber removes meals from their subscription.
+=================================================================================================
+s
+Anna Jones [mushroom stew 2]
+Anna Smith [steak 4]
+Carl Smith [lasagne 8]
+Ted Smith [steak 2, curry 2, fish 6]
+=================================================================================================
+
+Please choose an option from the menu list below:
+f: Finish running the program
+m: Display all the meals information
+s: Display all the subscribers information
+a: to update the stored data when a registered subscriber adds meals to their subscription.
+r: to update the stored data when a registered subscriber removes meals from their subscription.
+=================================================================================================
+f
+Thank you, Goodbye!
+
+Process finished with exit code 0
